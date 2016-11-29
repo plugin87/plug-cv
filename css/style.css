@@ -1,22 +1,27 @@
 	/*-------------------------------------------------------*/
-		/* Base styles	 */
+	/* Base styles	 */
 	/*-------------------------------------------------------*/
 	body {
-		background-image:url(../images/bg3.png);
+		
+		background-image: url(../images/bg.png);
+		background-size: cover;
 		background-color: #E8E8E8;
 		margin: 0px;
 		padding: 0px;
-		font-family:'Open Sans', Arial;
+		font-family: 'Open Sans', Arial;
 		font-size: 12px;
+		
+		
 	}
-	/*-------------------------------------------------------*/
-		/* Wrap */
+
+	/*-----------
+	--------------------------------------------*/
+	/* Wrap */
 	/*-------------------------------------------------------*/
 	#container {
 		margin:0 auto;
 		width:860px;
-		margin-bottom: 20px;
-		margin-top: 30px;
+		
 	}
 	#content {
 		background-color:#FFF;
@@ -25,7 +30,7 @@
 		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
 	}
 	/*-------------------------------------------------------*/
-		/* Generic Classes */
+	/* Generic Classes */
 	/*-------------------------------------------------------*/
 	.hidden {
 		display: none;
@@ -34,9 +39,9 @@
 		clear:both;
 	}
 	/*-------------------------------------------------------*/
-		/* Typography */
+	/* Typography */
 	/*-------------------------------------------------------*/
-    h1 {font-size: 27px;}
+	h1 {font-size: 27px;}
 	h2 {font-size: 30px;}
 	h3 {font-size: 20px;}
 	h4 {font-size: 15px;}
@@ -62,7 +67,7 @@
 		color: #333;
 	}
 	/*-------------------------------------------------------*/
-		/* Top Section */
+	/* Top Section */
 	/*-------------------------------------------------------*/
 	div.top {
 		height:60px;
@@ -70,7 +75,7 @@
 		overflow:hidden;
 	}
 	/* Logo */
-		#logo {
+	#logo {
 		float:left;
 		overflow:hidden;
 		margin-left:10px;
@@ -79,11 +84,11 @@
 	#logo h2 {
 		font-size:30px;
 		font-weight:900;
-		color: #444;
+		color: #fff;
 		line-height:40px;
 	}
 	#logo h4 {
-		color:#666;
+		color:#fff;
 		line-height:20px;
 	}
 	/* Social icons */
@@ -148,9 +153,9 @@
 		background-color:#f6c500;
 	}
 	/*-------------------------------------------------------*/
-		/* Profile Section */
+	/* Profile Section */
 	/*-------------------------------------------------------*/
-    #profile {
+	#profile {
 		background-image:url(../images/header-shadow.png), url(../images/header-bg.png);
 		background:url(../images/header-bg.png) repeat-x\0/; /* For ie8 */
 		background-position:center bottom, left top;
@@ -223,7 +228,7 @@
 		color:#a87f09;
 	}
 	/*-------------------------------------------------------*/
-		/* Menu */
+	/* Menu */
 	/*-------------------------------------------------------*/
 	.menu {
 		height:100px;
@@ -274,7 +279,7 @@
 		background-position:center 41px;
 	}
 	/* Active icons */
-		.tabs .active .tab-profile {
+	.tabs .active .tab-profile {
 		background-image:url(../images/profile-icon-active.png);
 	}
 	.tabs .active .tab-resume {
@@ -287,9 +292,9 @@
 		background-image:url(../images/contact-icon-active.png);
 	}
 	/*-------------------------------------------------------*/
-		/* Resume Section */
+	/* Resume Section */
 	/*-------------------------------------------------------*/
-    #resume {
+	#resume {
 		padding:20px;
 		overflow:hidden;
 	}
@@ -359,6 +364,8 @@
 		font-size:15px;
 		color: #444;
 	}
+	
+	
 	.skills li .rat0, .skills li .rat1, .skills li .rat2, .skills li .rat3, .skills li .rat4, .skills li .rat5, .skills li .rat6, .skills li .rat7 {
 		width:123px;
 		height:14px;
@@ -389,9 +396,9 @@
 		background:url(../images/rats.png) no-repeat 0px -98px;
 	}
 	/*-------------------------------------------------------*/
-		/* Portfolio Section */
+	/* Portfolio Section */
 	/*-------------------------------------------------------*/
-    #portfolio {
+	#portfolio {
 		padding:0 20px 20px 20px;
 		overflow:hidden;
 	}
@@ -463,7 +470,7 @@
 		color:#999;
 	}
 	/* adipoli */
-		.adipoli-wrapper {
+	.adipoli-wrapper {
 		margin:auto;
 		position:relative;
 		display: inline-block;
@@ -492,9 +499,9 @@
 		z-index:15;
 	}
 	/*-------------------------------------------------------*/
-		/* Contact Section */
+	/* Contact Section */
 	/*-------------------------------------------------------*/
-    #contact {
+	#contact {
 		padding:30px 0;
 		overflow:hidden;
 	}
@@ -584,7 +591,7 @@
 		border: 1px solid #f7c7c9;
 	}
 	/* Google map */
-		#map {
+	#map {
 		height: 300px;
 		margin-bottom:25px;
 		width: 100%;
@@ -592,7 +599,7 @@
 		border-top:1px solid #CCC;
 	}
 	/*-------------------------------------------------------*/
-		/* Footer */
+	/* Footer */
 	/*-------------------------------------------------------*/
 	div.footer {
 		margin-top:20px;
@@ -600,13 +607,13 @@
 	}
 	div.footer .copyright {
 		float:left;
-		color:#333;
+		color:#fff;
 		padding-left:6px;
 	}
 	/*-------------------------------------------------------*/
-		/* Isotope filtering */
+	/* Isotope filtering */
 	/*-------------------------------------------------------*/
-    .isotope-item {
+	.isotope-item {
 		z-index: 2;
 	}
 	.isotope-hidden.isotope-item {
@@ -630,282 +637,282 @@
 	}
 	
 
-/*-------------------------------------------------------*/
+	/*-------------------------------------------------------*/
 	/* Media Queries */
-/*-------------------------------------------------------*/
-
-/* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-	#container {
-		width:750px;
-	}
 	/*-------------------------------------------------------*/
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		#container {
+			width:750px;
+		}
+		/*-------------------------------------------------------*/
 		/* Profile Section */
-	/*-------------------------------------------------------*/
-	/* About */
-	.about {
-		width:410px;
-	}
-	.about h1 {
-		line-height:38px;
-		font-size:30px
-	}
-	.about h3 {
-		font-size:14px;
-		line-height:14px;
-	}
-	/* Personal info */
-	.personal-info {
-		width:280px;
-		margin-right:10px;
-	}
-	/*-------------------------------------------------------*/
+		/*-------------------------------------------------------*/
+		/* About */
+		.about {
+			width:410px;
+		}
+		.about h1 {
+			line-height:38px;
+			font-size:30px
+		}
+		.about h3 {
+			font-size:14px;
+			line-height:14px;
+		}
+		/* Personal info */
+		.personal-info {
+			width:280px;
+			margin-right:10px;
+		}
+		/*-------------------------------------------------------*/
 		/* Resume */
-	/*-------------------------------------------------------*/
-	.timeline-section {
-		width:380px;
-		padding-right:30px;
-	}
-	.skills-section {
-		width:300px;
-	}
-	/*-------------------------------------------------------*/
+		/*-------------------------------------------------------*/
+		.timeline-section {
+			width:380px;
+			padding-right:30px;
+		}
+		.skills-section {
+			width:300px;
+		}
+		/*-------------------------------------------------------*/
 		/* Portfolio */
-	/*-------------------------------------------------------*/
-	#portfolio-list {
-		width:750px;
-	}
-	#portfolio-list li {
+		/*-------------------------------------------------------*/
+		#portfolio-list {
+			width:750px;
+		}
+		#portfolio-list li {
 
-		margin-right:60px;
-	}
-	/*-------------------------------------------------------*/
+			margin-right:60px;
+		}
+		/*-------------------------------------------------------*/
 		/* Contact */
-	/*-------------------------------------------------------*/
-	.contact-info {
-		width:250px;
+		/*-------------------------------------------------------*/
+		.contact-info {
+			width:250px;
+		}
+		.contact-form {
+			width:420px;
+		}
 	}
-	.contact-form {
-		width:420px;
-	}
-}
 
-/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-	#container {
-		width:470px;
-	}
-	/*-------------------------------------------------------*/
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#container {
+			width:470px;
+		}
+		/*-------------------------------------------------------*/
 		/* Top Section */
-	/*-------------------------------------------------------*/	
-	/* Logo */
-	#logo h2 {
-		font-size:25px;
-		font-weight:900;
-		color: #444;
-		line-height:30px;
-	}
-	#logo h4 {
-		color:#666;
-		line-height:15px;
-	}
-	/* Social icons */
-	.socialicons {
-		margin-top:9px;
-	}
-	.social-text {
-		display:none;
-	}
-	/*-------------------------------------------------------*/
+		/*-------------------------------------------------------*/	
+		/* Logo */
+		#logo h2 {
+			font-size:25px;
+			font-weight:900;
+			color: #444;
+			line-height:30px;
+		}
+		#logo h4 {
+			color:#666;
+			line-height:15px;
+		}
+		/* Social icons */
+		.socialicons {
+			margin-top:9px;
+		}
+		.social-text {
+			display:none;
+		}
+		/*-------------------------------------------------------*/
 		/* Profile Section */
-	/*-------------------------------------------------------*/
-	/* About */
-	.about {
-		width:420px;
-		display:block;
-	}
-	.about h1 {
-		line-height:38px;
-		font-size:30px
-	}
-	.about h3 {
-		font-size:14px;
-		line-height:14px;
-	}
-	/* Personal info */
-	.personal-info {
-		margin-top:0;
-		display:block;
-		width:420px;
-		background:none;
-		border-top:1px solid #fdc62a;
-	}
-	/*-------------------------------------------------------*/
+		/*-------------------------------------------------------*/
+		/* About */
+		.about {
+			width:420px;
+			display:block;
+		}
+		.about h1 {
+			line-height:38px;
+			font-size:30px
+		}
+		.about h3 {
+			font-size:14px;
+			line-height:14px;
+		}
+		/* Personal info */
+		.personal-info {
+			margin-top:0;
+			display:block;
+			width:420px;
+			background:none;
+			border-top:1px solid #fdc62a;
+		}
+		/*-------------------------------------------------------*/
 		/* Menu */
-	/*-------------------------------------------------------*/
-	.tabs {
-		padding-left:5px;
-	}
-	.timeline-section {
-		width:420px;
-		padding-right:60px;
-	}
-	/*-------------------------------------------------------*/
+		/*-------------------------------------------------------*/
+		.tabs {
+			padding-left:5px;
+		}
+		.timeline-section {
+			width:420px;
+			padding-right:60px;
+		}
+		/*-------------------------------------------------------*/
 		/* Resume */
-	/*-------------------------------------------------------*/
-	.skills-section {
-		width:420px;
-	}
-	.skills li h4 {
-		width:260px;
-	}
-	/*-------------------------------------------------------*/
+		/*-------------------------------------------------------*/
+		.skills-section {
+			width:420px;
+		}
+		.skills li h4 {
+			width:260px;
+		}
+		/*-------------------------------------------------------*/
 		/* Portfolio */
-	/*-------------------------------------------------------*/
-	#portfolio-list {
-		width:450px;
-	}
-	#portfolio-list li {
-		margin-right:40px;
-	}
-	/*-------------------------------------------------------*/
+		/*-------------------------------------------------------*/
+		#portfolio-list {
+			width:450px;
+		}
+		#portfolio-list li {
+			margin-right:40px;
+		}
+		/*-------------------------------------------------------*/
 		/* Contact */
-	/*-------------------------------------------------------*/
-	.contact-info {
-		width:420px;
-	}
-	.contact-form {
-		margin-top:20px;
-		width:420px;
-	}
-	
+		/*-------------------------------------------------------*/
+		.contact-info {
+			width:420px;
+		}
+		.contact-form {
+			margin-top:20px;
+			width:420px;
+		}
 
-}
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {
-	
-	#container {
-		width:300px;
-				margin-top:10px;
+
 	}
-	/*-------------------------------------------------------*/
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+
+		#container {
+			width:300px;
+			margin-top:10px;
+		}
+		/*-------------------------------------------------------*/
 		/* Top Section */
-	/*-------------------------------------------------------*/
-	/* Logo */
-	#logo h2 {
-		font-size:25px;
-		font-weight:900;
-		color: #444;
-		line-height:30px;
-	}
-	#logo h4 {
-		color:#666;
-		line-height:15px;
-	}
-	.socialicons {
-		display:none; !important
-	}
-	/*-------------------------------------------------------*/
+		/*-------------------------------------------------------*/
+		/* Logo */
+		#logo h2 {
+			font-size:25px;
+			font-weight:900;
+			color: #444;
+			line-height:30px;
+		}
+		#logo h4 {
+			color:#666;
+			line-height:15px;
+		}
+		.socialicons {
+			display:none; !important
+		}
+		/*-------------------------------------------------------*/
 		/* Profile Section */
-	/*-------------------------------------------------------*/
-	div.top {
-		height:50px;
-		margin-bottom:5px;
-	}
-	/* About */
-	.about {
-		width:280px;
-		display:block;
-		margin:10px 0 15px 10px;
-	}
-	.about .photo-inner {
-		margin-left:40px;
-		background:url(../images/photo-inner.png) no-repeat;
-		width:192px;
-		height:212px;
-		padding:12px 0 0 20px;
-	}
-	.about h1 {
-		line-height:38px;
-		font-size:30px;
-		text-align:center;
-	}
-	.about h3 {
-		font-size:14px;
-		line-height:14px;
-		text-align:center;
-	}
-	.about p {
-		text-align:center;
-	}
-	/* Personal info */
-	.personal-info {
-		margin-top:0;
-		display:block;
-		width:280px;
-		background:none;
-		border-top:1px solid #fdc62a;
-		margin-left:10px;
-		min-height:220px;
-		padding-left:0;
-	}
-	.personal-info li {
-		font-size:13px;
-	}
-	/*-------------------------------------------------------*/
+		/*-------------------------------------------------------*/
+		div.top {
+			height:50px;
+			margin-bottom:5px;
+		}
+		/* About */
+		.about {
+			width:280px;
+			display:block;
+			margin:10px 0 15px 10px;
+		}
+		.about .photo-inner {
+			margin-left:40px;
+			background:url(../images/photo-inner.png) no-repeat;
+			width:192px;
+			height:212px;
+			padding:12px 0 0 20px;
+		}
+		.about h1 {
+			line-height:38px;
+			font-size:30px;
+			text-align:center;
+		}
+		.about h3 {
+			font-size:14px;
+			line-height:14px;
+			text-align:center;
+		}
+		.about p {
+			text-align:center;
+		}
+		/* Personal info */
+		.personal-info {
+			margin-top:0;
+			display:block;
+			width:280px;
+			background:none;
+			border-top:1px solid #fdc62a;
+			margin-left:10px;
+			min-height:220px;
+			padding-left:0;
+		}
+		.personal-info li {
+			font-size:13px;
+		}
+		/*-------------------------------------------------------*/
 		/* Menu */
-	/*-------------------------------------------------------*/
-	.tabs {
-		padding-left:0px;
-	}
+		/*-------------------------------------------------------*/
+		.tabs {
+			padding-left:0px;
+		}
 
-	.tabs li > a {
-		width:75px;
-		font-size:14px;
+		.tabs li > a {
+			width:75px;
+			font-size:14px;
 
-	}
-	.tabs li.active {
-		background: none;
-	}
-	/*-------------------------------------------------------*/
+		}
+		.tabs li.active {
+			background: none;
+		}
+		/*-------------------------------------------------------*/
 		/* Resume */
-	/*-------------------------------------------------------*/
-	#resume {
-		padding:10px;
-	}
-	.timeline-section {
-		width:280px;
-		padding-right:60px;
-	}
-	.skills-section {
-		width:280px;
-	}
-	.skills li h4 {
-		width:120px;
-	}
-	/*-------------------------------------------------------*/
+		/*-------------------------------------------------------*/
+		#resume {
+			padding:10px;
+		}
+		.timeline-section {
+			width:280px;
+			padding-right:60px;
+		}
+		.skills-section {
+			width:280px;
+		}
+		.skills li h4 {
+			width:120px;
+		}
+		/*-------------------------------------------------------*/
 		/* Portfolio */
-	/*-------------------------------------------------------*/
-	#portfolio-list {
-		width:280px;
-	}
-	#portfolio-list li {
-		margin-left:40px;
-	}
-	/*-------------------------------------------------------*/
+		/*-------------------------------------------------------*/
+		#portfolio-list {
+			width:280px;
+		}
+		#portfolio-list li {
+			margin-left:40px;
+		}
+		/*-------------------------------------------------------*/
 		/* Contact */
-	/*-------------------------------------------------------*/
-	
-	.contact-info {
-		width:280px;
-	}
-	.contact-form {
-		margin-top:20px;
-		width:280px;
-	}
-	.contact-info, .contact-form {
-		padding:0 10px;
-	}
+		/*-------------------------------------------------------*/
+
+		.contact-info {
+			width:280px;
+		}
+		.contact-form {
+			margin-top:20px;
+			width:280px;
+		}
+		.contact-info, .contact-form {
+			padding:0 10px;
+		}
 
 
-}
+	}
